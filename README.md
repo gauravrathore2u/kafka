@@ -11,3 +11,8 @@ Kafka has producers, topics, partitions and consumers.
 -> we can have consumer groups, these consumer groups can have many consumers.
 
 -> One consumer can consume many partitions BUT two consumers can not try to consume one partition in a single Consumer group.
+
+-> we can use kafka as Queue ans pubsub both,
+-> in Queue we have one producer and one consumer, In PubSub we have one producer and many consumer.
+
+--> Using as Queue:- If no. of partition = no. of consumers then it each partition will have its consumer i.e. it will work like a queue
